@@ -32,7 +32,7 @@ console.log(chalk.red(`IMPORTANT, if you are going to edit the codes, just chang
    [!] | $10 [Lista server] |`))
 
    console.log("      ")
-   console.log(chalk.blue(`These codes are the property of Antilague. | discord.gg/antiplague`))
+   console.log(chalk.blue(`These codes are the property of Antiplague. | discord.gg/antiplague`))
 
    presencia();  
 });
