@@ -14,8 +14,42 @@
    
    [!] | $10 [Lista server] | $help [Lista de ayuda] |
 
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
 
 This code is property of AntiPlague.
-
 
 https://discord.gg/antiplague
