@@ -13,9 +13,6 @@
    [?] Comandos de informacion
    
    [!] | $10 [Lista server] | $help [Lista de ayuda] |
-
-.
-
 .
 
 .
