@@ -1,18 +1,18 @@
-[?] Comandos de raid:
-
-   [!] | `$1` [Admin] | `$2` [Nuke] | `$3` [Raid automatico] | `$4` [Raid] |
-
-   [?] Comandos de modificaciones:
-
-   [!] | `$5` [Elimina roles] | `$6` [Agrega roles] |
+    [ ? ] Raid commands:
+    
+   [ ! ] | `$1` [Admin] | `$2` [Nuke] | `$3` [Automatic Raid] | `$4` [Raid] |
    
-   [?] Comandos para usuarios:
+   [ ? ] Modification commands:
+  
+   [ !] | `$5` [Delete roles] | `$6` [Add roles] |
    
-   [!] | `$7` [Ban all] | `$8` [Md all] | `$9` [Nombre users] |
+   [ ? ] Commands for users:
    
-   [?] Comandos de informacion
+   [ ! ] | `$7` [Ban all] | `$8` [Md all] | `$9 <name>` [Users name] |
    
-   [!] | `$10` [Lista server] | `$help` [Lista de ayuda] |
+   [ ? ] Information commands:
+   
+   [ ! ] | `$10` [server list] |
 .
 
 .
@@ -45,8 +45,10 @@
 
 .
 
+ⓘ The misuse of the codes will not be the responsibility of the owner or the server of the creator of the codes.
+
 .
 
-This code is property of AntiPlague.
+ⓘ This code is property of AntiPlague.
 
 https://discord.gg/antiplague
